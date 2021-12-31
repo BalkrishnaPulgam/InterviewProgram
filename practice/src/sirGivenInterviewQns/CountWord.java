@@ -27,6 +27,11 @@ public class CountWord {
 	for(Map.Entry<String, Integer> en:map.entrySet()) {
 		System.out.println(en.getKey()+" _ "+en.getValue());
 	}
+	System.out.println("---------");
+	for(Map.Entry<String, Integer> en:map.entrySet()) {
+		if(en.getValue()>1)
+		System.out.println(en.getKey()+" _ "+en.getValue());
+	}
 		
 		
 	}
